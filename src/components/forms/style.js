@@ -24,6 +24,7 @@ export const InputContent = styled.div`
 
 export const Label = styled.label`
     cursor: pointer;
+   
 `;
 
 
@@ -38,6 +39,7 @@ export const Input = styled.input`
 export const RadioGroup = styled.div`
     display: flex;
     align-items: center;
+    margin-top: 15px;
     
 
     input {
@@ -50,7 +52,8 @@ export const RadioGroup = styled.div`
 `;
 
 export const Button = styled.button`
-    padding: 5px 10px;
+    padding: 15px 10px;
+    margin-top: 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
