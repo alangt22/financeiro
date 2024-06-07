@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import GlobalStyle from "./styles/global";
-import Header from "./components/header";
-import Resume from "./components/resume";
-import Form from "./components/forms";
+import GlobalStyle from "./src/styles/global";
+import Header from "./src/components/header";
+import Resume from "./src/components/resume";
+import Form from "./src/components/forms";
 
 const App = () => {
   const data = localStorage.getItem("transactions");
